@@ -14,3 +14,15 @@ int multi(int a, int b) {
 int x = sum(1, 2);
 int y = diff(1, 2);
 int z = multi(1, 2);
+string op;
+cout << "enter op";
+cin << op;
+if (op == "add") {
+	cout << x;
+}
+if (op == "dif") {
+	cout << y;
+}
+if (op == "multi") {
+	cout << z;
+}
