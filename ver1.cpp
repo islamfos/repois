@@ -1,6 +1,9 @@
 cout << "hello";
-int add(int a, int b) {
-	int total = a + b;
+
+
+int sum(int a, int b,int c) {
+	int total = a + b+c;
+
 	return total;
 }
 int diff(int a, int b) {
