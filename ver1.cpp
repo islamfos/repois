@@ -1,5 +1,5 @@
 cout << "hello";
-int sum(int a, int b) {
+int add(int a, int b) {
 	int total = a + b;
 	return total;
 }
